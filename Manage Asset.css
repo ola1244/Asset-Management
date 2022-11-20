@@ -1,0 +1,149 @@
+/* body{
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 0%;
+} */
+
+.sterling-logo{
+    float: right;
+    margin-right: 110px;
+}
+
+.main-wrapper{
+    display: flex;
+    max-width: 100%;
+    font-family: Helvetica;
+}
+.icon{    
+    height: 25px;
+    margin: 5px 0 0 120px;
+    position: absolute;
+}
+.search input{
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+    box-shadow:  0 2px 5px darkgray;
+    border: .5px solid rgb(148, 146, 146);
+}
+.section-1{
+    width: 30%;
+    border: .5px solid rgb(148, 146, 146);
+    margin-top: 5em;
+}
+.section-2{
+    width:90%;
+    /* float: right; */
+    /* margin-left: 200px; */
+    /* border: 2px solid red; */
+    margin-left: 100px;
+}
+.wrapper{
+    display: flex;
+    margin-top: 5em;
+    /* justify-content: space-between; */
+}
+.btn button img{
+    height: 15px;
+    align-self: center;
+}
+.btn{
+    align-self:center;
+    display: flex;
+    margin-left: 200px;
+}
+.inventory p{
+    font-size: 12px;
+}
+.btn button:nth-child(1) {
+    height: 25px;
+    width: 80px;
+    font-size: 8px;
+    border: .5px solid rgb(148, 146, 146);   
+    margin-right: 10px;
+    border-radius: 5px;
+    
+}
+.btn button:nth-child(2) {
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-size: 10px;
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    /* margin-left: 50px; */
+}
+._form{
+    width: 100%;
+    /* float: right; */
+}
+._form input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: .5px solid rgb(148, 146, 146);    
+}
+.title{
+    margin-top: 10px;
+    margin-left: 20px;
+    display:inline-block;
+}
+.lbl{
+    margin-left: 0%;
+}
+.employee-search input{
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+    /* box-shadow:  0 2px 5px darkgray; */
+    border: .5px solid rgb(148, 146, 146);
+    margin-bottom: 50px;
+}
+.assign{
+    /* width: 90%; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-right: 110px;
+    background-color: rgb(253, 247, 247);
+}
+.assign img{
+    height: 20px;
+}
+.assign div{
+    display: flex;
+    align-items: center;
+}
+.asset .active .correct{
+    margin-right: 22px;
+}
+.asset .active .para{
+    margin-right: 115px;
+}
+.employee-search img{    
+    height: 25px;
+    margin: 5px 0 0 220px;
+    position: absolute;
+}
+.update input:nth-child(1) {
+    background-color: red;
+    color: #fff;
+    border: 0;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+}
+.update input:nth-child(2) {
+    background-color:black;
+    color: #fff;
+    border: 0;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+}
+.update{
+    float: right;
+    margin-top: 50px;
+    margin-right: 110px;
+}
